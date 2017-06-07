@@ -43,4 +43,8 @@ dependencies {
     implementation 'com.android.support:design:25.3.1'
     implementation 'com.google.android.gms:play-services-auth:10.2.6'
     implementation 'com.google.firebase:firebase-messaging:10.2.6'
+    implementation 'com.google.firebase:firebase-auth:10.2.4'
 }
+
+
+apply plugin: 'com.google.gms.google-services'
