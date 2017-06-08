@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("in.co.websaver.jn7", appContext.packageName)
+        assertEquals("in.com.websaver.jn7", appContext.packageName)
     }
 }
