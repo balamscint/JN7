@@ -1,4 +1,4 @@
-package in.co.websaver.jn7
+package com.jn7.jn7
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

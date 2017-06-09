@@ -1,4 +1,4 @@
-package in.co.websaver.jn7
+package com.jn7.jn7
 
 import android.os.Bundle
 import android.support.design.widget.FloatingActionButton
@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
+import com.crashlytics.android.Crashlytics
 import io.fabric.sdk.android.Fabric
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val toolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
 
-        Fabric.with(this, new Crashlytics ())
+        Fabric.with(this, Crashlytics ())
 
         val fab = findViewById(R.id.fab) as FloatingActionButton
         fab.setOnClickListener { view ->

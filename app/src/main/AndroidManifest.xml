@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="in.com.websaver.jn7">
+    package="com.jn7.jn7">
 
-    <uses-sdk tools:overrideLibrary="com.ayz4sci.androidfactory.permissionhelper, xyz.hanks.library, com.opentok" />
+    <uses-sdk tools:overrideLibrary="com.ayz4sci.androidfactory.permissionhelper" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.jn7.jn7.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -32,9 +32,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <meta-data
-        android:name="io.fabric.ApiKey"
-        android:value="dace7077d31cbf11b367f2eb4a8e2c112e79ffd1" />
 
 </manifest>
