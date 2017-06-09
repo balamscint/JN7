@@ -4,8 +4,6 @@ apply plugin: 'io.fabric'
 
 apply plugin: 'kotlin-android'
 
-apply plugin: 'kotlin-android-extensions'
-
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
